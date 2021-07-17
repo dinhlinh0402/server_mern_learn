@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon index",
     "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
-    "start": "node index"
+    "start": "node index.js"
   },
   "author": "Dinh Linh",
   "license": "ISC",
