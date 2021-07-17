@@ -43,7 +43,7 @@ app.use(
 app.use(express.json())
 app.use(cors())
 
-app.use(morgan('combined'))
+// app.use(morgan('combined'))
 
 // Express Session
 app.set('trust proxy', 1); // trust first proxy
