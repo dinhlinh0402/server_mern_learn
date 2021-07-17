@@ -78,6 +78,6 @@ app.use('/admin', adminRoute)
 // const abcRouter = require('./routers/abc')
 // app.use('/ok', abcRouter)
 
-const PORT = 5000
+const PORT = process.env.PORT || 5000
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`))
